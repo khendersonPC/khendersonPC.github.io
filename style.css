@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 26px;
+	text-align: center;
+}
+
+/*//classes*/
+	.box {
+		float:left;
+		float:right;
+		background-color: darkgrey;
+		width: auto;
+		height: auto;
+		align-items: center;
+	}
+
+	.boxfinal {
+		float:left;
+		float:right;
+		background-color: white;
+		width: auto;
+		height: auto;
+		align-items: center;
+	}
+
+	.boximage2 {
+		float:left;
+		float:right;
+		background-image: url("desk.jpg");
+		background-size: 1920px 1080px;
+		background-repeat: no-repeat;
+		width: auto;
+		height: auto;
+		align-items: center;
+	}
+
+	.boximage3 {
+		float:left;
+		float:right;
+		background-image: url("mountain.jpg");
+		width: auto;
+		height: auto;
+		align-items: center;
+	}
+
+	.boximage4 {
+		float:left;
+		float:right;
+		background-image: url("rain.jpg");
+		background-size: 2920px 1080px;
+		background-repeat: no-repeat;
+		align-items: center;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 50%;
+	}
+
+	.centernote {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 45%;
+		height: 45%;
+	}
+
+	.centerbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 75px;
+	}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 10px;
+  color: lightgrey;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: deeppink;
+}
